@@ -1,7 +1,7 @@
 
 #include <Servo.h>
 
-int degre_horizontal, degre_vertical, fin, PAS_SERVO = 15, ETAT_ALARM=1,SEUIL_DIODE=10;
+int degre_horizontal, degre_vertical, fin, PAS_SERVO = 15, ETAT_ALARM=1,SEUIL_DIODE=30;
 String chaine, ID_SERVO = "S",ID_POUSSOIR = "P",ID_DIODE = "D",ID_BUZZER = "B", id_composant, temp, valeur;
 char separateur = ',';
 Servo servo_horizontal, servo_vertical;
