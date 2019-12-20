@@ -77,7 +77,6 @@ void fonction_buzzer(){
         a_message=0;
       it_fin=micros();
       if(ack_alarm==0){
-        Serial.println("ack = 0");
         if(it_fin-it_debut>it_diff){//ENVOYER UNE ALERTE TOUTES LES 5 SEC
           chaine="";
           chaine.concat("ALERT");
